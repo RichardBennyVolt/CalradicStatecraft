@@ -32,10 +32,10 @@ This repository distributes packaged releases and installation information. Its 
 
 - Bannerlord **v1.4.8**, single-player **Campaign or Sandbox**.
 - Four required dependencies, installed separately: **Harmony v2.4.2.248**, **ButterLib v2.12.0**, **UIExtenderEx v2.13.3**, **Mod Configuration Menu v5 / MCM v5.12.3**.
-- War Sails is optional. Nord content loads only when the required DLC content is active. Keep DLC and non-DLC saves separate.
+- War Sails is optional. Nord content loads only when the required DLC content is active.
 - 游戏版本 **v1.4.8**，支持单人**战役与沙盒**。
 - 四项前置必须另行安装：**Harmony v2.4.2.248、ButterLib v2.12.0、UIExtenderEx v2.13.3、Mod Configuration Menu v5 / MCM v5.12.3**。
-- War Sails 为可选内容；所需DLC内容启用时才加载诺德内容。有DLC与无DLC环境分别使用独立存档。
+- War Sails 为可选内容；所需DLC内容启用时才加载诺德内容。
 
 ## Installation and load order / 安装与加载顺序
 
@@ -45,7 +45,7 @@ This repository distributes packaged releases and installation information. Its 
 
    **Harmony → ButterLib → UIExtenderEx → MCM v5 → official modules in dependency order → Calradic Statecraft**
 
-   The core official order is **Native → SandBox Core → Sandbox**. Enable **StoryMode** for Campaign. When **War Sails / NavalDLC** is enabled, retain its required official dependencies, including **StoryMode**, and load NavalDLC before Calradic Statecraft. Keep other enabled official modules in the launcher's dependency order. Avoid duplicate dependency/mod installations.
+   The core official order is **Native → SandBox Core → Sandbox**. Enable **StoryMode** for Campaign. When **War Sails / NavalDLC** is enabled, retain its required official dependencies, including **StoryMode**, and load NavalDLC after Calradic Statecraft. Keep other enabled official modules in the launcher's dependency order. Avoid duplicate dependency/mod installations.
 4. Enter a settlement and look for **Kingdom Governance** in its menu.
 
 1. 关闭游戏和启动器，更新前备份存档。
@@ -54,7 +54,7 @@ This repository distributes packaged releases and installation information. Its 
 
    **Harmony → ButterLib → UIExtenderEx → MCM v5 → 按依赖排序的官方模块 → Calradic Statecraft**
 
-   官方基础顺序为 **Native → SandBox Core → Sandbox**；战役模式启用 **StoryMode**。启用 **War Sails / NavalDLC** 时，保留其要求的 **StoryMode** 等官方依赖，并将 NavalDLC 放在政略之前。其他已启用官方模块保持启动器依赖排序，前置与模组均避免重复安装。
+   官方基础顺序为 **Native → SandBox Core → Sandbox**；战役模式启用 **StoryMode**。启用 **War Sails / NavalDLC** 时，保留其要求的 **StoryMode** 等官方依赖，并将 NavalDLC 放在政略之后。其他已启用官方模块保持启动器依赖排序，前置与模组均避免重复安装。
 4. 进入定居点，在菜单中打开**王国政略**。
 
 ## V1.3.39 release information / 版本说明
